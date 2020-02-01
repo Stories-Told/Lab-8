@@ -66,8 +66,6 @@ void Input_Names_And_Votes()
         cin >> votes[i];
         cout << endl;
     }
-
-    return;
 }
 
 void Process_The_Math()
