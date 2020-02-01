@@ -10,11 +10,9 @@ int main()
 {
 
     // Variables for recording total votes,
-    // final percentage
     // and amount of candidates for user to enter names and scores for
     double totalVotes = 0;
-    double votesPercentage;
-    int amountOfCandidates = amountOfCandidates;
+    int amountOfCandidates;
 
     // Tells user what program is
     cout << "---------------\n";
