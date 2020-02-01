@@ -71,17 +71,17 @@ int main()
     cout << "-------------------------------------------\n";
 
     // For loop to output the candidates name, their votes, and their vote percentage
-    for (int iii = 1; iii <= amountOfCandidates; iii++ )
+    for (int i = 1; i <= amountOfCandidates; i++ )
     {
         cout << left
              << setw(15)
-             << candidatesLastName[iii]
+             << candidatesLastName[i]
              << left << setw(15)
-             << votes[iii]
+             << votes[i]
              << left
              << setw(15)
              << setprecision(4)
-             << votes[iii] / totalVotes / .01
+             << votes[i] / totalVotes / .01
              << endl;
     }
 
